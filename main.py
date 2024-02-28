@@ -17,5 +17,6 @@ if __name__ == '__main__':
         st.header("Answer")
         st.write(response["result"])
         
+        st.write("Note: Sometimes LLM will create answer of its own (hallucination)")
         # also print the result in the console for better debuging purposes
         print(response['result'])
